@@ -1,0 +1,5 @@
+train: /media/omkar/DATA/ClearQuote/yolov5/data/train
+val: /media/omkar/DATA/ClearQuote/yolov5/data/val
+
+nc: 11
+names: ['0', '1', '10', '2', '3', '4', '5', '6', '7', '8', '9']
