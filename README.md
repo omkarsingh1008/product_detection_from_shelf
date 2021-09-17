@@ -31,3 +31,37 @@ python train.py --img 416 --batch 2 --epochs 300 --data data.yaml --weights yolo
 ## results
 after 300 epoch we get 0.60 mAP (mean aevrage percision)
 ![alt text](https://github.com/omkarsingh1008/product_detection_from_shelf/blob/main/model_training_files/runs/train/exp/results.png)
+
+## examples
+![alt text](https://github.com/omkarsingh1008/product_detection_from_shelf/blob/main/results/images_with_detections/exp/C4_P02_N4_S2_1.JPG)
+
+## setup 
+
+setup on loacl machine.
+
+Clone repo and install requirements.txt in a Python>=3.6.0 environment, including PyTorch>=1.7.
+```bash
+git clone https://github.com/omkarsingh1008/product_detection_from_shelf.git
+```
+```bash
+cd Street_light-laptop_detection
+```
+
+```bash
+pip install -r requirements.txt
+```
+## demo
+demo on video
+
+```bash
+python3 detect.py --weight best.pt --source video_path
+```
+demo on image
+```bash
+python3 detect.py --weight best.pt --source image_path
+```
+
+demo on webcam
+```bash
+python3 detect.py --weight best.pt --source 0
+```
