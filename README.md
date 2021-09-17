@@ -30,3 +30,4 @@ python train.py --img 416 --batch 2 --epochs 300 --data data.yaml --weights yolo
 
 ## results
 after 300 epoch we get 0.60 mAP (mean aevrage percision)
+[alt text](https://github.com/omkarsingh1008/product_detection_from_shelf/blob/main/model_training_files/runs/train/exp/results.png)
